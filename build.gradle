@@ -1,0 +1,10 @@
+apply from: 'gradle/vertx.gradle'
+
+repositories {
+  jcenter()
+}
+
+ext {
+  vertxVersion = "2.1.5"
+}
+
